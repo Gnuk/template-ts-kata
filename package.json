@@ -19,6 +19,8 @@
   },
   "scripts": {
     "test": "jest",
+    "test:watch": "jest --watch",
+    "test:watch:all": "jest --watchAll",
     "eslint:ci": "eslint './**/*.{ts,js}'",
     "eslint": "eslint './**/*.{ts,js}' --fix"
   },
