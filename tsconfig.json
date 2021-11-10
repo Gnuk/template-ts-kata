@@ -5,7 +5,8 @@
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "outFile": "dist/main.js",
+        "outDir": "./dist",
+        "strict": true,
         "sourceMap": true
     },
     "include": [
